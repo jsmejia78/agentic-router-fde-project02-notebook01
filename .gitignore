@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# uv / Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Qdrant runtime lock
+qdrant_data/.lock
